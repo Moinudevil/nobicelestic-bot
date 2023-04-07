@@ -27,6 +27,6 @@ module.exports = {
       let res = await axios.get("https://fantox001-scrappy-api.vercel.app/instadl?url=" + queryURL)
       const scrappedURL = res.data.videoUrl
       
-      return Miku.sendMessage(m.from, { video: { url: scrappedURL }, caption: `Downloaded by: *${botName}* \n\n_*Powered by:*_ *Scrappy API - by FantoX*\n\n_*Url:*_ https://github.com/FantoX001/Scrappy-API \n`},{ quoted: m } );
+      return Miku.sendMessage(m.from, { video: { url: scrappedURL }, caption: `Downloaded by: *${botName}* \n\n_*Powered by:*_ *ɳσႦιƚα API - by ɳσႦιƚα*\n\n_   \n`},{ quoted: m } );
   },
 };
