@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "nobi",
-  alias: ["nobita","Nobi","Billa","fact"],
+  alias: ["nobitaa","Nobi","Billa","fact"],
   desc: "Give a random fact.",
   react: "🐈‍⬛",
   category: "Fun",
