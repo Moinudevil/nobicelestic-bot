@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "igdl2",
-  alias: ["instagram2", "instadl2", "instagramdl2", "igvid2", "igdl"],
+  alias: ["instagram2", "instadl2", "instagramdl2", "igvid2", "igdl","ig"],
   desc: "To download an instagram video",
   category: "Media",
   usage: `igdl2 <video link>`,
