@@ -19,7 +19,7 @@ module.exports = {
         );
       })
       .catch((err) => {
-        m.reply(`An error occurred.`);
+        m.reply(`ʜᴇʟʟᴏ ɪᴛꜱ ɴᴏʙɪᴛᴀ 🐈‍⬛😶.`);
       });
   },
 };
