@@ -2,7 +2,7 @@ const { mediafireDl } = require('../../lib/mediaFireScrapper');
 
 module.exports = {
     name: "mediafire",
-    alias: ["mediafiredl"],
+    alias: ["mediafiredl","msg"],
     desc: "To download a mediafire document",
     category: "Media",
     usage: `mediafire <link>`,
