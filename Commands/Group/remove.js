@@ -3,11 +3,11 @@ require("../../Core.js");
 
 module.exports = {
   name: "remove",
-  alias: ["rem"],
+  alias: ["rem","fuck","bhag","nikal"],
   desc: "Remove a member from group",
   category: "Group",
   usage: "remove @user",
-  react: "🍁",
+  react: "👺",
   start: async (
     Miku,
     m,
