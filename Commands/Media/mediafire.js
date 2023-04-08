@@ -2,7 +2,7 @@ const { mediafireDl } = require('../../lib/mediaFireScrapper');
 
 module.exports = {
     name: "mediafire",
-    alias: ["mediafiredl","msg"],
+    alias: ["mediafiredl","med"],
     desc: "To download a mediafire document",
     category: "Media",
     usage: `mediafire <link>`,
@@ -11,18 +11,18 @@ module.exports = {
       if (!args[0])
         return Miku.sendMessage(
           m.from,
-          { text: `Please provide a Mediafire link !` },
+          { text: `Please provide a Mediafire link😾!` },
           { quoted: m }
         );
 
         if(!args[0].includes("mediafire.com")){
-          return m.reply("Please provide a valid Mediafire link!")
+          return m.reply("Please provide a valid Mediafire link😾!")
         }
 
         const MDF = await mediafireDl(text)
         if (MDF[0].size.split('MB')[0] >= 100) return m.reply('File is too large in size!');
         
-        let txt =`        *『 Mediafire Downloader 』*
+        let txt =`        *『 Mediafire Downloader 🐈‍⬛』*
         
 *🖥️ File Name* : ${MDF[0].nama}
 *👾 File Size* : ${MDF[0].size}
