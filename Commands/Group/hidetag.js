@@ -13,8 +13,7 @@ module.exports = {
     if (!isAdmin)
       return m.reply(mess.useradmin);
 
-      var message = "*『 
-⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
+      var message = "*『 ⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
 
     if(m.quoted){
         message = "*『 ⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
