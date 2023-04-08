@@ -8,13 +8,13 @@ module.exports = {
   desc: "To play a video from youtube",
   category: "Media",
   usage: `video <song name>`,
-  react: "🍁",
+  react: "🎬",
   start: async (Miku, m, { text, prefix, args }) => {
     try {
       if (!args[0])
         return Miku.sendMessage(
           m.from,
-          { text: `Please provide a song name to play !` },
+          { text: `Please provide a song name to play 😒!` },
           { quoted: m }
         );
       const songSearchTerm = args.join(" ");
