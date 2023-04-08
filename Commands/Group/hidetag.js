@@ -1,10 +1,10 @@
 module.exports = {
   name: "hidetag",
-  alias: ["htag", "ping"],
+  alias: ["htag","summon","summoning"],
   desc: "Tag all group member without @ mention",
   category: "Group",
   usage: "htag <your message>",
-  react: "🍁",
+  react: "🕸️",
   start: async (
     Miku,
     m,
@@ -13,10 +13,11 @@ module.exports = {
     if (!isAdmin)
       return m.reply(mess.useradmin);
 
-      var message = "*『 Attention Here 』*";
+      var message = "*『 
+⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
 
     if(m.quoted){
-        message = "*『 Attention Here 』*";
+        message = "*『 ⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
       }
     else if (!text && m.quoted) {
       message = `${m.quoted ? m.quoted.msg : ''}`;
@@ -25,11 +26,11 @@ module.exports = {
       message = args.join(' ');
     }
     else if(text ===''){
-      message = "*『 Attention Here 』*";
+      message = "*『 ⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
     }
    
     else{
-      message = "*『 Attention Here 』*";
+      message = "*『 ⛭ꜱᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛꜱᴜ෴ 』*";
     }
     await Miku.sendMessage(
       m.from,
