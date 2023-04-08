@@ -23,7 +23,7 @@ module.exports = {
     
     
     var queryURL = args.join(" ");
-      m.reply("*Please wait, I'm downloading your video...*")
+      m.reply("*Please wait, I'm downloading your video...🐇*")
       let res = await axios.get("https://fantox001-scrappy-api.vercel.app/instadl?url=" + queryURL)
       const scrappedURL = res.data.videoUrl
       
