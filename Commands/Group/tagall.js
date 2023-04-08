@@ -1,10 +1,10 @@
 module.exports = {
   name: "tagall",
-  alias: ["tag", "all","come","summoning","summon"],
+  alias: ["tag", "all","come","ping"],
   desc: "Tag all group member",
   category: "Group",
   usage: "tagall",
-  react: "🕸️",
+  react: " 🍑",
   start: async (
     Miku,
     m,
@@ -19,7 +19,7 @@ module.exports = {
       ? m.quoted.msg
       : "No Message";
 
-    let mess = `               *『 summoning jutsu 🖤 』*
+    let mess = `               *『 ATTENTION HERE  🖤 』*
     
 *Tagged by:* @${m.sender.split("@")[0]}
     
