@@ -11,7 +11,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a Instagram Video link !` },
+        { text: `Please provide a Instagram Video link Baka !` },
         { quoted: m }
       );
     if (!args[0].includes("instagram.com"))
