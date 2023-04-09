@@ -3,7 +3,7 @@ const yts = require("youtube-yts");
 
 module.exports = {
   name: "ytvd",
-  alias: ["mp4", "ytmp4", "ytmp4"],
+  alias: ["mp4","ytmp4","ytmp4"],
   desc: "To download a song as mp4 from YouTube link",
   cool: 30,
   category: "Media",
@@ -13,7 +13,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a YouTube Video link !` },
+        { text: `Please provide a YouTube Video link 👀!` },
         { quoted: m }
       );
     let videoUrl = text;
@@ -26,7 +26,7 @@ module.exports = {
 
         if (length >= 1800) {
           return m.reply(
-            "Command Rejected! The video is more than 30 minutes long BAKA! "
+            "Command Rejected! The video is more than 30 minutes long BAKA!😾 "
           );
         } else {
           const ytaud =  YT.mp4(text).then((file) => {
