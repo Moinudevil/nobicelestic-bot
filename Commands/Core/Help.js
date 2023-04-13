@@ -35,7 +35,7 @@ module.exports = {
 
 function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
   return `
-*━━━❰ STATISTICS ❱━━━*
+*━━━❰ BOTINFO ❱━━━*
 *bot details*
 1) Type help-c to get all the commands list of our js bot
 only our js bot will.provide this helplist.
