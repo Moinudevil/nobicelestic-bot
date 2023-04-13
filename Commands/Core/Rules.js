@@ -3,9 +3,9 @@ const { sessionSchema } = require('../../Database/index.js');
 const { runtime } = require('../../lib/myfunc.js');
 
 module.exports = {
-    name: 'rules',
+    name: 'help-r',
     desc: 'Displays bot rules',
-    alias: ['r','botrules'],
+    alias: ['r','helprules'],
     category: 'Core',
     usage: 'stats',
     react: '📊',
