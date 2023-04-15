@@ -1,6 +1,6 @@
 module.exports = {
   name: "setgcname",
-  alias: ["setnamegc", "changegcname", "setgroupname", "changegroupname"],
+  alias: ["setnamegc","changegcname", "setgroupname","changegroupname"],
   desc: "Change the group name",
   category: "Group",
   usage: `setgcname <New group name>`,
