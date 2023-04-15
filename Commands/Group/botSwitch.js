@@ -2,7 +2,7 @@ const { mk } = require("../../Database/dataschema.js");
 
 module.exports = {
   name: "cmd",
-  alias: ["bot", "botswitch"],
+  alias: ["bot","botswitch"],
   desc: "Enable or disable bot in a group",
   category: "Group",
   usage: "cmd [on/off]",
