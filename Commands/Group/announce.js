@@ -1,6 +1,6 @@
 module.exports = {
   name: "announce",
-  alias: ["anounce", "announ"],
+  alias: ["anounce","announ"],
   desc: "Tag all group member without @ mention",
   category: "Group",
   usage: "announce <your message>",
