@@ -40,9 +40,5 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 1) Type help-c to get all the commands list of our js bot
 only our js bot will.provide this helplist.
 
-2)type help-g to see all commands list of our gamebot js bot can only show command but it cant perform those if u want to jse those commands use ts bot.
-
-3)type help-r to get all our rules amd follow every single rules
-
-4)type help-a to get all details of our celestic botz association read carefully to get all sources`;
+2)type help-a to get all details of our celestic botz association read carefully to get all sources`;
         }
