@@ -44,11 +44,5 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 💬Sessions: ${sessions}
 ♨️Botname : ${botName}
 🟣Author : Team Celestic
-♓Version : Celestic v9.0
-💯 Celestic: bot2 (public js bot)
-✝️Grouplimit : 15-25
-🛑banned users : 1
-🀄Disabled command: 0
-📛Celestic type = javascript (js)
 🕰️Uptime: ${runtime(uptime)}`;
         }
