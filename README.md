@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/lucky01u/Celestic-bot">
+  <a href="https://github.com/Kingshisui00/nobicelestic-bot">
     <img src="https://img.shields.io/github/forks/nobi-2/celestic-MD?label=Fork&style=social">
    
     
@@ -26,7 +26,7 @@
 
 <br>
 
-<a href="https://github.com/lucky01u/Celestic-bot">
+<a href="https://github.com/Kingshisui00/nobicelestic-bot">
     <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Atlas-MD.visitor-badge&left_text=Total%20People%20Visited">
   </a>
   <br><br>
@@ -51,7 +51,7 @@
 </h4>
 
 <p align="center" >
-    <a href="https://repl.it/github/lucky01u/celestic-bot">
+    <a href="https://github.com/Kingshisui00/nobicelestic-bot">
     <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
     </a>
     <br>     
@@ -91,7 +91,7 @@
 </h4>
   
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/lucky01u/Celestic-bot/blob/master/">
+    <a href="https://heroku.com/deploy?template=https://github.com/Kingshisui00/nobicelestic-bot/blob/master/">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heruko" width="170px">
     </a>
     <br>
