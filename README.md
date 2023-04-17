@@ -51,7 +51,7 @@
 </h4>
 
 <p align="center" >
-    <a href="https://github.com/Kingshisui00/nobicelestic-bot">
+    <a href="https://replit.com/@celestic1/nobicelestic-bot?s=app">
     <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
     </a>
     <br>     
